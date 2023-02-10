@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.table-sity {
+ 
+ margin: 0 auto;
+margin-top:10vh;
+padding: 15px;
+background-color: black;
+border-radius: 10px;
+-webkit-box-shadow: 1px -13px 66px 79px rgba(49, 42, 43, 0.42);
+-moz-box-shadow: 1px -13px 66px 79px rgba(49, 42, 43, 0.42);
+box-shadow: 1px -13px 66px 79px rgba(49, 42, 43, 0.42);
+}
+
+
+
+
+
+img{
+ /* object-fit: cover; */
+ width: 200px;
+ height: 100px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+
+tr,th,td {
+  border: 1px solid rgb(5, 5, 5);
+width: 200px;
+height: 100px;
+  color: rgb(25, 105, 179);
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+/* 
+tr:nth-child(2n + 2) {
+background-color:  #CD5888 ;
+
+} */
+
+
+tr:nth-child(4n + 1) {
+  background-color: rgb(30, 46, 36);
+
+ }
+
+
+.td-img {
+
+padding-top: 10px;
+}
+
+
+.wiebodzin {
+  font-size: 2em;
+  color: rgb(168, 33, 33);
+}
+
+
+.th-font {
+  font-size: 30px;
+}
